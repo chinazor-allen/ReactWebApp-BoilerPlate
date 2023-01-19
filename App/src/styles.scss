@@ -1,0 +1,20 @@
+.content {
+    text-align: center;
+  }
+
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+  
+  h1 {
+    color: #2F4F4F;
+    font-size: 26px;
+  
+    &:hover {
+      color: #008B8B;
+    }
+  }
